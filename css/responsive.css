@@ -1,0 +1,94 @@
+@media (max-width: 900px) {
+  .container { width: min(calc(100% - 34px), var(--max)); }
+  .section { padding: 95px 0; }
+  .nav { min-height: 72px; }
+  .nav-links {
+    position: fixed; inset: 72px 0 auto; background: rgba(255,255,255,.97);
+    border-bottom: 1px solid var(--line); padding: 20px 24px 28px;
+    display: grid; gap: 0; transform: translateY(-130%); transition: transform .45s var(--ease);
+  }
+  .nav-links.open { transform: translateY(0); }
+  .nav-links a { padding: 15px 0; border-bottom: 1px solid var(--line); }
+  .nav-cta { display: none; }
+  .menu-toggle { display: block; }
+  .menu-toggle.open span:first-child { transform: translateY(3.5px) rotate(45deg); }
+  .menu-toggle.open span:last-child { transform: translateY(-3.5px) rotate(-45deg); }
+
+  .hero-meta { margin-bottom: 35px; }
+  .meta-line { display: none; }
+  .hero-title { font-size: clamp(54px, 14vw, 100px); }
+  .hero-bottom { align-items: start; flex-direction: column; margin-top: 50px; }
+  .hero-scroll, .hero-index { display: none; }
+
+  .section-head { margin-bottom: 50px; }
+  .section-head h2 { font-size: clamp(39px, 8vw, 65px); }
+  .about-grid, .division-layout, .eligibility-card { grid-template-columns: 1fr; gap: 45px; }
+  .about-copy { padding-top: 0; }
+  .giant-number { font-size: 120px; }
+  .division-preview { min-height: 400px; }
+  .eligibility-left { min-height: 370px; padding: 35px; }
+  .eligibility-right { padding: 15px 30px 30px; }
+
+  .deadline-display { flex-direction: column; align-items: start; }
+  .countdown { width: 100%; justify-content: space-between; }
+  .deadline-date > strong { font-size: 130px; }
+
+  .register-shell { padding: 35px; }
+  .register-top { align-items: start; flex-direction: column; }
+}
+
+@media (max-width: 620px) {
+  .container { width: min(calc(100% - 28px), var(--max)); }
+  .section { padding: 78px 0; }
+  .hero-inner { padding-top: 72px; }
+  .hero-kicker { line-height: 1.5; max-width: 250px; }
+  .hero-title { font-size: clamp(48px, 15vw, 76px); line-height: .82; }
+  .hero::before { width: 100vw; height: 100vw; right: -55vw; top: 28%; }
+  .hero::after { width: 75vw; height: 75vw; right: -38vw; top: 35%; }
+
+  .section-head { margin-bottom: 38px; }
+  .section-number { display: none; }
+  .about-lead p { font-size: 24px; }
+  .mini-stats { margin-top: 38px; }
+
+  .reason { grid-template-columns: 38px 1fr 25px; gap: 12px; padding: 24px 0; }
+  .reason:hover { padding-inline: 6px; }
+  .reason h3 { font-size: 20px; }
+  .reason p { font-size: 11px; }
+  .reason-arrow { font-size: 16px; }
+
+  .division-layout { gap: 25px; }
+  .division-preview { min-height: 340px; padding: 24px; }
+  .preview-number { font-size: 90px; }
+  .preview-copy h3 { font-size: 50px; }
+  .division-select { grid-template-columns: 1fr; }
+
+  .eligibility-left { min-height: 330px; padding: 28px; }
+  .eligibility-right { padding: 5px 22px 25px; }
+  .eligibility-item { grid-template-columns: 30px 1fr 20px; }
+
+  .deadline-date { column-gap: 12px; }
+  .deadline-date > strong { font-size: 105px; }
+  .countdown { gap: 7px; }
+  .countdown strong { font-size: 22px; }
+  .countdown div { min-width: 48px; }
+  .countdown > i { font-size: 13px; }
+
+  .register-shell { padding: 27px 20px; }
+  .register-top { padding-bottom: 35px; }
+  .register-top h2 { font-size: 46px; }
+  .form-progress { gap: 7px; }
+  .form-progress i { width: 18px; }
+  .form-step { padding-top: 35px; }
+  .form-grid, .review-grid { grid-template-columns: 1fr; gap: 17px; }
+  .field-full { grid-column: auto; }
+  .form-actions { align-items: stretch; flex-direction: column; }
+  .form-actions .button { width: 100%; }
+  .form-actions > span { text-align: center; order: 2; }
+  .form-note { text-align: left; }
+  .success-screen { padding: 55px 0 15px; }
+  .success-screen h3 { font-size: 58px; }
+
+  .footer-inner { grid-template-columns: 1fr; }
+  .footer-copy { text-align: left; }
+}

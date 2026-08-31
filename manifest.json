@@ -1,0 +1,18 @@
+{
+  "name": "OFATEK 2026",
+  "short_name": "OFATEK 2026",
+  "description": "Open Recruitment Panitia OFATEK 2026 — Fakultas Teknik Universitas Sangga Buana YPKP Bandung.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b111a",
+  "theme_color": "#0b4ea2",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/logo-ofatek.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
