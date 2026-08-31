@@ -1,7 +1,7 @@
 window.OFATEK_CONFIG = {
   // Frontend phase: true = submit is simulated locally.
   // Set to false later when Google Apps Script endpoint is ready.
-  DEMO_MODE: true,
+  DEMO_MODE: false,
 
   // Replace this with your deployed Google Apps Script Web App URL later.
   GOOGLE_APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycby_ocJ6Qy8lDAPkpLCZiiCT_f3NE4_DtvBaHejN7lSBXMVyRd1Ae6zjL3O9YTdztBpe/exec",
