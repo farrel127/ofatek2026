@@ -1,6 +1,7 @@
 (() => {
   const config = window.OFATEK_CONFIG || {};
-  const $ = window.OFATEK_APP.$;
+   const $ = window.OFATEK_APP.$;
+  const $$ = window.OFATEK_APP.$$;
   const form = $("#registrationForm");
   if (!form) return;
 
