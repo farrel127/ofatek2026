@@ -3,7 +3,7 @@
   const $ = (selector, scope = document) => scope.querySelector(selector);
   const $$ = (selector, scope = document) => [...scope.querySelectorAll(selector)];
 
-  window.OFATEK_APP = { $ };
+  window.OFATEK_APP = { $, $$ };
 
   // Loader
   window.addEventListener("load", () => {
