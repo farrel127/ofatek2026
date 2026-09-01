@@ -112,6 +112,35 @@ button { cursor: pointer; }
   background-size: 64px 64px;
   mask-image: linear-gradient(to bottom, black, transparent 85%);
 }
+/* =========================================
+   LOGO UNIVERSITAS & SEMA FT
+========================================= */
+
+.brand-logos {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-logos img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.hero-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.hero-logos img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
 .hero::before {
   content: ""; position: absolute; width: 58vw; height: 58vw; max-width: 760px; max-height: 760px;
   right: -18vw; top: 7%; border: 1px solid rgba(11,78,162,.13); border-radius: 50%;
