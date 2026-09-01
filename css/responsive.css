@@ -92,3 +92,21 @@
   .footer-inner { grid-template-columns: 1fr; }
   .footer-copy { text-align: left; }
 }
+@media (max-width: 600px) {
+
+  .brand-logos img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .hero-logos {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .hero-logos img {
+    width: 48px;
+    height: 48px;
+  }
+
+}
