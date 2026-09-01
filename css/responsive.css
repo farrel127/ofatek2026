@@ -106,16 +106,22 @@
   .footer-inner { grid-template-columns: 1fr; }
   .footer-copy { text-align: left; }
 }
-@media (max-width: 600px) {
-    .brand-logos {
-        gap: 6px;
-    }
+@media (max-width: 900px) {
+  .brand-logos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    min-width: max-content;
+  }
 
-    .brand-logos img {
-        width: 30px;
-        height: 30px;
-        object-fit: contain;
-    }
+  .brand-logos img {
+    display: block;
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
 }
 @media (max-width: 600px) {
     .brand-logos {
