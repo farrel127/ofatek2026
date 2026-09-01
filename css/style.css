@@ -91,8 +91,42 @@ button { cursor: pointer; }
 .menu-toggle span { display: block; height: 1px; background: var(--ink); margin: 6px 0; transition: transform .3s; }
 
 .eyebrow {
-  display: inline-flex; align-items: center; gap: 9px;
-  font-size: 9px; letter-spacing: .22em; font-weight: 800; color: var(--blue);
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+
+  color: #174a91;
+
+  margin: 0;
+}
+
+.eyebrow i {
+  width: 6px;
+  height: 6px;
+  display: block;
+
+  border-radius: 50%;
+  background: currentColor;
+
+  animation: eyebrowPulse 2s ease-in-out infinite;
+}
+
+.eyebrow b {
+  padding: 4px 8px;
+
+  border: 1px solid currentColor;
+  border-radius: 999px;
+
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+
+  animation: yearFloat 3s ease-in-out infinite;
 }
 .eyebrow i { display: inline-block; width: 7px; height: 7px; background: var(--gold); border-radius: 50%; }
 .section-head { display: flex; justify-content: space-between; gap: 40px; align-items: flex-start; margin-bottom: 72px; }
