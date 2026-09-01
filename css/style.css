@@ -117,15 +117,16 @@ button { cursor: pointer; }
 ========================================= */
 
 .brand-logos {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .brand-logos img {
-  width: 34px;
-  height: 34px;
-  object-fit: contain;
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    display: block;
 }
 
 .hero-logos {
