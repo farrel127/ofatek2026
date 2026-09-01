@@ -31,6 +31,47 @@ button { cursor: pointer; }
   width: min(calc(100% - 48px), var(--max));
   margin-inline: auto;
 }
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-label {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.contact-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  color: inherit;
+  text-decoration: none;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
+}
+
+.contact-whatsapp svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.contact-whatsapp:hover {
+  transform: translateY(-2px);
+  opacity: 0.7;
+}
 .section { position: relative; padding: 132px 0; }
 .noise {
   position: fixed;
