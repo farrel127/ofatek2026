@@ -1,4 +1,4 @@
-const CACHE_NAME = "ofatek-2026-v2";
+const CACHE_NAME = "ofatek-2026-v3";
 
 const APP_SHELL = [
   "./",
@@ -9,7 +9,9 @@ const APP_SHELL = [
   "./js/app.js",
   "./js/form.js",
   "./manifest.json",
-  "./assets/logo-ofatek.png"
+  "./assets/logo-ofatek.png",
+  "./assets/logo-univ.png",
+  "./assets/logo-sema-ft.png"
 ];
 
 
