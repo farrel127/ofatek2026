@@ -36,6 +36,20 @@
   .register-shell { padding: 35px; }
   .register-top { align-items: start; flex-direction: column; }
 }
+@media (max-width: 600px) {
+  .footer-contact {
+    gap: 6px;
+  }
+
+  .contact-whatsapp {
+    font-size: 11px;
+  }
+
+  .contact-whatsapp svg {
+    width: 19px;
+    height: 19px;
+  }
+}
 
 @media (max-width: 620px) {
   .container { width: min(calc(100% - 28px), var(--max)); }
