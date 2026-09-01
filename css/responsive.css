@@ -93,11 +93,16 @@
   .footer-copy { text-align: left; }
 }
 @media (max-width: 600px) {
+    .brand-logos {
+        gap: 6px;
+    }
 
-  .brand-logos img {
-    width: 28px;
-    height: 28px;
-  }
+    .brand-logos img {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+}
 
   .hero-logos {
     gap: 12px;
