@@ -123,22 +123,7 @@
     flex-shrink: 0;
   }
 }
-@media (max-width: 600px) {
-    .brand-logos {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        flex-shrink: 0;
-    }
 
-    .brand-logos img {
-        display: block;
-        width: 30px;
-        height: 30px;
-        object-fit: contain;
-        flex-shrink: 0;
-    }
-}
 
 
 
