@@ -135,4 +135,63 @@
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
   }
+  // ================================
+// BASIC SOURCE / CONTEXT PROTECTION
+// ================================
+
+document.addEventListener("contextmenu", function (event) {
+  event.preventDefault();
+});
+
+document.addEventListener("keydown", function (event) {
+  const key = event.key.toLowerCase();
+
+  // F12
+  if (event.key === "F12") {
+    event.preventDefault();
+    return;
+  }
+
+  // Ctrl / Cmd + U
+  if ((event.ctrlKey || event.metaKey) && key === "u") {
+    event.preventDefault();
+    return;
+  }
+
+  // Ctrl / Cmd + S
+  if ((event.ctrlKey || event.metaKey) && key === "s") {
+    event.preventDefault();
+    return;
+  }
+
+  // Ctrl + Shift + I
+  if (
+    (event.ctrlKey || event.metaKey) &&
+    event.shiftKey &&
+    key === "i"
+  ) {
+    event.preventDefault();
+    return;
+  }
+
+  // Ctrl + Shift + J
+  if (
+    (event.ctrlKey || event.metaKey) &&
+    event.shiftKey &&
+    key === "j"
+  ) {
+    event.preventDefault();
+    return;
+  }
+
+  // Ctrl + Shift + C
+  if (
+    (event.ctrlKey || event.metaKey) &&
+    event.shiftKey &&
+    key === "c"
+  ) {
+    event.preventDefault();
+    return;
+  }
+});
 })();
