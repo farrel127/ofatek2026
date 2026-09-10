@@ -154,7 +154,7 @@
             <div class="mini-stats">
               <div><strong>01</strong><span>PROGRAM<br>TAHUNAN</span></div>
               <div><strong>FT</strong><span>FAKULTAS<br>TEKNIK</span></div>
-              <div><strong>USB</strong><span>SANGGA BUANA<br>YPKP</span></div>
+              <div><strong>Universitas</strong><span>SANGGA BUANA<br>YPKP</span></div>
             </div>
           </div>
         </div>
@@ -219,29 +219,51 @@
         </div>
 
         <div class="division-layout">
-          <div class="division-list" id="divisionList">
-            <button class="division-item active" type="button" data-division="Acara">
-              <span>01</span><strong>ACARA</strong><i>↗</i>
-            </button>
-            <button class="division-item" type="button" data-division="HUMAS">
-              <span>02</span><strong>HUMAS</strong><i>↗</i>
-            </button>
-            <button class="division-item" type="button" data-division="PDD">
-              <span>03</span><strong>PDD</strong><i>↗</i>
-            </button>
-            <button class="division-item" type="button" data-division="Logistik">
-              <span>04</span><strong>LOGISTIK</strong><i>↗</i>
-            </button>
-            <button class="division-item" type="button" data-division="Medis">
-              <span>05</span><strong>MEDIS</strong><i>↗</i>
-            </button>
-            <button class="division-item" type="button" data-division="Konsumsi">
-              <span>06</span><strong>KONSUMSI</strong><i>↗</i>
-            </button>
-            <button class="division-item" type="button" data-division="PJK">
-              <span>07</span><strong>PJK</strong><i>↗</i>
-            </button>
-          </div>
+  <div class="division-list" id="divisionList">
+
+    <!-- POSISI INTI -->
+    <button class="division-item active" type="button" data-division="Ketua Pelaksana">
+      <span>01</span><strong>KETUA PELAKSANA</strong><i>↗</i>
+    </button>
+
+    <button class="division-item" type="button" data-division="Sekretaris Pelaksana">
+      <span>02</span><strong>SEKRETARIS PELAKSANA</strong><i>↗</i>
+    </button>
+
+    <button class="division-item" type="button" data-division="Bendahara Pelaksana">
+      <span>03</span><strong>BENDAHARA PELAKSANA</strong><i>↗</i>
+    </button>
+
+    <!-- DIVISI -->
+    <button class="division-item" type="button" data-division="Acara">
+      <span>04</span><strong>ACARA</strong><i>↗</i>
+    </button>
+
+    <button class="division-item" type="button" data-division="HUMAS">
+      <span>05</span><strong>HUMAS</strong><i>↗</i>
+    </button>
+
+    <button class="division-item" type="button" data-division="PDD">
+      <span>06</span><strong>PDD</strong><i>↗</i>
+    </button>
+
+    <button class="division-item" type="button" data-division="Logistik">
+      <span>07</span><strong>LOGISTIK</strong><i>↗</i>
+    </button>
+
+    <button class="division-item" type="button" data-division="Medis">
+      <span>08</span><strong>MEDIS</strong><i>↗</i>
+    </button>
+
+    <button class="division-item" type="button" data-division="Konsumsi">
+      <span>09</span><strong>KONSUMSI</strong><i>↗</i>
+    </button>
+
+    <button class="division-item" type="button" data-division="PJK">
+      <span>10</span><strong>PJK</strong><i>↗</i>
+    </button>
+
+  </div>
 
           <div class="division-preview reveal">
             <div class="preview-grid" aria-hidden="true"></div>
@@ -398,14 +420,50 @@
                 <p>Pilih satu divisi yang paling sesuai dengan minatmu.</p>
               </div>
 
-              <div class="division-select" id="divisionSelect">
-  <button type="button" data-value="Divisi Acara"><span>01</span><strong>ACARA</strong><i>↗</i></button>
-  <button type="button" data-value="Divisi HUMAS"><span>02</span><strong>HUMAS</strong><i>↗</i></button>
-  <button type="button" data-value="Divisi PDD"><span>03</span><strong>PDD</strong><i>↗</i></button>
-  <button type="button" data-value="Divisi Logistik"><span>04</span><strong>LOGISTIK</strong><i>↗</i></button>
-  <button type="button" data-value="Divisi Medis"><span>05</span><strong>MEDIS</strong><i>↗</i></button>
-  <button type="button" data-value="Divisi Konsumsi"><span>06</span><strong>KONSUMSI</strong><i>↗</i></button>
-  <button type="button" data-value="Divisi PJK"><span>07</span><strong>PJK</strong><i>↗</i></button>
+             <div class="division-select" id="divisionSelect">
+
+  <!-- POSISI PELAKSANA -->
+  <button type="button" data-value="Ketua Pelaksana">
+    <span>01</span><strong>KETUA PELAKSANA</strong><i>↗</i>
+  </button>
+
+  <button type="button" data-value="Sekretaris Pelaksana">
+    <span>02</span><strong>SEKRETARIS PELAKSANA</strong><i>↗</i>
+  </button>
+
+  <button type="button" data-value="Bendahara Pelaksana">
+    <span>03</span><strong>BENDAHARA PELAKSANA</strong><i>↗</i>
+  </button>
+
+  <!-- DIVISI -->
+  <button type="button" data-value="Divisi Acara">
+    <span>04</span><strong>ACARA</strong><i>↗</i>
+  </button>
+
+  <button type="button" data-value="Divisi HUMAS">
+    <span>05</span><strong>HUMAS</strong><i>↗</i>
+  </button>
+
+  <button type="button" data-value="Divisi PDD">
+    <span>06</span><strong>PDD</strong><i>↗</i>
+  </button>
+
+  <button type="button" data-value="Divisi Logistik">
+    <span>07</span><strong>LOGISTIK</strong><i>↗</i>
+  </button>
+
+  <button type="button" data-value="Divisi Medis">
+    <span>08</span><strong>MEDIS</strong><i>↗</i>
+  </button>
+
+  <button type="button" data-value="Divisi Konsumsi">
+    <span>09</span><strong>KONSUMSI</strong><i>↗</i>
+  </button>
+
+  <button type="button" data-value="Divisi PJK">
+    <span>10</span><strong>PJK</strong><i>↗</i>
+  </button>
+
 </div>
 
 <input type="hidden" name="divisi" id="divisionInput">
