@@ -10,7 +10,7 @@ window.OFATEK_CONFIG = {
   WHATSAPP_GROUP_URL: "https://chat.whatsapp.com/JPR48FwEbdD1wRgvpMmqmH",
 
   // Temporary registration deadline agreed for the first version.
-  REGISTRATION_DEADLINE: "2026-09-24T23:59:59+07:00",
+  REGISTRATION_DEADLINE: "2026-10-19T23:59:59+07:00",
 
   APP_NAME: "OFATEK 2026"
 };
