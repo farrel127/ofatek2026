@@ -80,7 +80,7 @@
   });
 
   // Deadline countdown
-  const deadline = new Date(config.REGISTRATION_DEADLINE || "2026-09-24T23:59:59+07:00");
+  const deadline = new Date(config.REGISTRATION_DEADLINE || "2026-10-19T23:59:59+07:00");
   const countdownEls = {
     days: $("#days"), hours: $("#hours"), minutes: $("#minutes"), seconds: $("#seconds")
   };
